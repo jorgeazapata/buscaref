@@ -4,7 +4,7 @@ const productos = [
         nombre: "Solomito",
         plu: "12345",
         codigoBalanza: "ABC123",
-        codigoBarras: "0123456789012",
+        codigoBarras: "2812345000000",
         precio: 10.99
     },
     {
@@ -19,6 +19,13 @@ const productos = [
         plu: "34567",
         codigoBalanza: "GHI789",
         codigoBarras: "3456789012345",
+        precio: 7.99
+    },
+    {
+        nombre: "Golosa mama ines",
+        plu: "05326",
+        codigoBalanza: "NA",
+        codigoBarras: "7705326018052",
         precio: 7.99
     }
 ];
