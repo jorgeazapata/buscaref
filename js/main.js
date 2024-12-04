@@ -118,3 +118,20 @@ btnEscanear.addEventListener("click", () => {
         alert(`Código de barras detectado: ${codigoBarras}`);
     });
 });
+
+// Función para actualizar el contador de visitas
+function actualizarContadorVisitas() {
+    const contador = document.getElementById('visit-counter');
+    let visitas = localStorage.getItem('visitas');
+
+    if (!visitas) {
+        visitas = 0;
+    }
+
+    visitas++;
+    localStorage.setItem('visitas', visitas);
+    contador.textContent = visitas;
+}
+
+// Llama a la función al cargar la página
+document.addEventListener('DOMContentLoaded', actualizarContadorVisitas);

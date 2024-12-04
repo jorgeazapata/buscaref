@@ -91,3 +91,17 @@ button img {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer p {
+    margin: 0;
+}
+
