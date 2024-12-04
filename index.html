@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Producto</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <h1>Buscar Producto</h1>
+    <form id="buscar-producto">
+        <label for="nombre-producto">Ingrese el nombre del producto:</label>
+        <input type="text" id="nombre-producto" name="nombre-producto">
+        <div id="sugerencias"></div>
+        <br><br><br><br>
+        <label for="codigo-barras">Ingrese el código de barras:</label>
+        <div class="input-group">
+            <input type="text" id="codigo-barras" name="codigo-barras">
+            <button type="button" id="btn-escanear">
+                <img src="imgs/camera-icon.png" alt="Escanear">
+            </button>
+        </div>
+        <button id="btn-buscar">Buscar</button>
+    </form>
+    <div id="resultado-busqueda"></div>
+    <div id="contenedor-camara"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
