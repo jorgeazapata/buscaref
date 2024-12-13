@@ -22,6 +22,62 @@ const productos = [
         precio: 7.99
     },
     {
+        nombre: "Chorizo Mixto QB",
+        plu: "00000",
+        codigoBalanza: "N/A",
+        codigoBarras: "7709554245440",
+        precio: 12990
+    },
+    {
+        nombre: "CHORIZO SANTA ROSANO QB",
+        plu: "62817",
+        codigoBalanza: "N/A",
+        codigoBarras: "7708900994919",
+        precio: 12990
+    },
+    {
+        nombre: "HAMBURGUESA QB",
+        plu: "63472",
+        codigoBalanza: "N/A",
+        codigoBarras: "7708409301010",
+        precio: 17900
+    },
+    {
+        nombre: "SALCHICHA DIA A DIA",
+        plu: "13268",
+        codigoBalanza: "N/A",
+        codigoBarras: "7708433165336",
+        precio: 4990
+    },
+    {
+        nombre: "SALCHICHA EXTRA TIPO PERRO QB",
+        plu: "13269",
+        codigoBalanza: "N/A",
+        codigoBarras: "7708433165459",
+        precio: 9990
+    },
+    {
+        nombre: "CHISTORRA QB",
+        plu: "81785",
+        codigoBalanza: "N/A",
+        codigoBarras: "7709554245471",
+        precio: 9990
+    },
+    {
+        nombre: "BUTIFARRA SOLEDEÑA QB",
+        plu: "46263",
+        codigoBalanza: "N/A",
+        codigoBarras: "7709692425728",
+        precio: 10790
+    },
+    {
+        nombre: "CHORIZO ARGENTINO QB",
+        plu: "45927",
+        codigoBalanza: "N/A",
+        codigoBarras: "7708900994926",
+        precio: 13950
+    },
+    {
         nombre: "Golosa mama ines",
         plu: "05326",
         codigoBalanza: "NA",
